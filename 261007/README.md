@@ -9,6 +9,7 @@
 | 1 | [공부내용 — 프로젝트 코드 해설](공부내용-프로젝트-코드해설.md) | 각 파일의 역할, URL→메서드→결과, 더하기, 게시판 CRUD, REST, 테스트와 중단점 |
 | 2 | [공부내용 — Spring·Java 용어 암기](공부내용-스프링-용어암기.md) | Map·Model·stream.map의 차이, MVC, 요청/응답, 어노테이션, JPA, IntelliJ와 1분 암기 카드 |
 | 3 | [공부내용 — IntelliJ·Gradle 오류 보고서](공부내용-IntelliJ-Gradle-오류보고서.md) | 실행 버튼이 없던 증상, 로그로 원인 찾기, 데몬 권한 문제, 8081 포트 충돌과 검증 방법 |
+| 4 | [공부내용 — DTO: 요청과 응답 데이터](공부내용-DTO-요청과응답.md) | 요청 DTO·응답 DTO·Entity·Model의 차이와 실제 게시판 데이터 흐름 |
 
 [프로젝트 전체 안내와 기존 개념 노트](../README.md)도 함께 읽을 수 있다.
 
@@ -36,6 +37,7 @@
 |---|---|
 | Controller, Service, Repository의 역할은? | 요청·응답, 처리 규칙, DB 접근 |
 | Map과 Model의 차이는? | Java 키·값 자료구조, HTML에 건넬 데이터를 담는 Spring 객체 |
+| DTO와 Entity의 차이는? | 주고받을 데이터의 모양, DB에 저장·조회할 데이터의 모양 |
 | 화면에 5가 어떻게 나타나나? | a+b → Model의 result → Thymeleaf의 result 표시 |
 | BUILD SUCCESSFUL이면 웹 서버도 켜진 것인가? | 아니다. 실행 로그와 HTTP 응답을 따로 확인한다. |
 
